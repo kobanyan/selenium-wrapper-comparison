@@ -1,0 +1,117 @@
+{
+  "hash" : "e7105c43ada45c9f6e0006854ef1a1d95249231d",
+  "plugins" : {
+    "total" : {
+      "statistic" : {
+        "total" : 24,
+        "passed" : 4,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 8,
+        "broken" : 12
+      },
+      "time" : {
+        "start" : 1450625713910,
+        "stop" : 1450625727634,
+        "duration" : 13724
+      }
+    },
+    "defects" : [ {
+      "count" : 1,
+      "uid" : "e4a226329b08d26",
+      "message" : "AssertionError: null",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "uid" : "b3bfc7f096388f7f",
+      "message" : "AssertionError: Object is displayed",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "uid" : "ae3a6b12093f82f7",
+      "message" : "ElementShould: Element should be visible {#input-hidden}\nElement: '<input id=\"input-hidden\" type=\"text\" value=\"#input-hidden\" displayed:false></input>'",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "uid" : "c371bcbfbe200496",
+      "message" : "InvalidStateException: InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated\n  (Session info: chrome=47.0.2526.106)\n  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Mac OS X 10.11.2 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 7 milliseconds\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'venezia.local', ip: '192.168.11.8', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.2', java.version: '1.8.0_66'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/nz/glw533px68q4csyxrwfr75vr0000gn/T/.org.chromium.Chromium.d4d3zn}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=47.0.2526.106, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 88c8dbe1bd29c6777a14bf86aae0494c",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "uid" : "ec6da04747e5b825",
+      "message" : "ElementNotFound: Element not found {#input-nonpresent}\nExpected: visible",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "uid" : "2cf48e92f784464b",
+      "message" : "ElementNotFound: Element not found {#input-nonpresent}\nExpected: exist",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "uid" : "de4d03b406b7f40f",
+      "message" : "InvalidStateException: InvalidElementStateException: invalid element state: Element must be user-editable in order to clear it.\n  (Session info: chrome=47.0.2526.106)\n  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Mac OS X 10.11.2 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 7 milliseconds\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'venezia.local', ip: '192.168.11.8', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.2', java.version: '1.8.0_66'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/nz/glw533px68q4csyxrwfr75vr0000gn/T/.org.chromium.Chromium.d4d3zn}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=47.0.2526.106, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 88c8dbe1bd29c6777a14bf86aae0494c",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "uid" : "1ffc959012e1f2c6",
+      "message" : "InvalidStateException: InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated\n  (Session info: chrome=47.0.2526.106)\n  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Mac OS X 10.11.2 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 6 milliseconds\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'venezia.local', ip: '192.168.11.8', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.2', java.version: '1.8.0_66'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/nz/glw533px68q4csyxrwfr75vr0000gn/T/.org.chromium.Chromium.d4d3zn}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=47.0.2526.106, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 88c8dbe1bd29c6777a14bf86aae0494c",
+      "status" : "FAILED"
+    }, {
+      "count" : 2,
+      "uid" : "ec6cf19dafd9a309",
+      "message" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#input-nonpresent\"}\n  (Session info: chrome=47.0.2526.106)\n  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Mac OS X 10.11.2 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 14 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'venezia.local', ip: '192.168.11.8', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.2', java.version: '1.8.0_66'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/nz/glw533px68q4csyxrwfr75vr0000gn/T/.org.chromium.Chromium.hBd9IN}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=47.0.2526.106, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 7033ecc6b50d2656fc154228920d5723\n*** Element info: {Using=css selector, value=#input-nonpresent}",
+      "status" : "BROKEN"
+    }, {
+      "count" : 1,
+      "uid" : "63ae1a25150e4553",
+      "message" : "InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated\n  (Session info: chrome=47.0.2526.106)\n  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Mac OS X 10.11.2 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 19 milliseconds\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'venezia.local', ip: '192.168.11.8', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.2', java.version: '1.8.0_66'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/nz/glw533px68q4csyxrwfr75vr0000gn/T/.org.chromium.Chromium.hBd9IN}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=47.0.2526.106, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 7033ecc6b50d2656fc154228920d5723",
+      "status" : "BROKEN"
+    } ],
+    "xunit" : [ {
+      "uid" : "9157a573c47ffe3f",
+      "title" : "Fluent lenium IT",
+      "statistic" : {
+        "total" : 8,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 6
+      }
+    }, {
+      "uid" : "562a1121158b3eae",
+      "title" : "Selenide IT",
+      "statistic" : {
+        "total" : 8,
+        "passed" : 2,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 6,
+        "broken" : 0
+      }
+    }, {
+      "uid" : "7711e68564586d62",
+      "title" : "Selenium IT",
+      "statistic" : {
+        "total" : 8,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 6
+      }
+    } ],
+    "behaviors" : [ {
+      "title" : "Without feature",
+      "statistic" : {
+        "total" : 24,
+        "passed" : 4,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 8,
+        "broken" : 12
+      }
+    } ],
+    "environment" : [ ]
+  }
+}

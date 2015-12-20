@@ -1,0 +1,50 @@
+{
+  "uid" : "a29d19b490b93613",
+  "name" : "assertThatHiddenInputIsInvisible",
+  "title" : "Selenium: Assert that hidden input is invisible",
+  "time" : {
+    "start" : 1450625727353,
+    "stop" : 1450625727401,
+    "duration" : 48
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "7711e68564586d62",
+    "name" : "com.github.kobanyan.selenium_wrapper_comparison.SeleniumIT",
+    "title" : "Selenium IT"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Assert that hidden input is invisible"
+  }, {
+    "name" : "host",
+    "value" : "venezia.local"
+  }, {
+    "name" : "thread",
+    "value" : "2910@venezia.local.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "com.github.kobanyan.selenium_wrapper_comparison.SeleniumIT"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

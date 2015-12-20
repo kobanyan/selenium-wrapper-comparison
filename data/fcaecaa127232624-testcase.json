@@ -1,0 +1,50 @@
+{
+  "uid" : "fcaecaa127232624",
+  "name" : "assertThatHiddenInputIsInvisible",
+  "title" : "FluentLenium: Assert that hidden input is invisible",
+  "time" : {
+    "start" : 1450625716275,
+    "stop" : 1450625716326,
+    "duration" : 51
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "9157a573c47ffe3f",
+    "name" : "com.github.kobanyan.selenium_wrapper_comparison.FluentLeniumIT",
+    "title" : "Fluent lenium IT"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Assert that hidden input is invisible"
+  }, {
+    "name" : "host",
+    "value" : "venezia.local"
+  }, {
+    "name" : "thread",
+    "value" : "2910@venezia.local.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "com.github.kobanyan.selenium_wrapper_comparison.FluentLeniumIT"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

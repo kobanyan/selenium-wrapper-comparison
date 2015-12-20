@@ -1,0 +1,53 @@
+{
+  "uid" : "4b4d9bb69a39497",
+  "name" : "clearNonpresentInput",
+  "title" : "FluentLenium: Clear nonpresent input",
+  "time" : {
+    "start" : 1450625716507,
+    "stop" : 1450625716540,
+    "duration" : 33
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "NoSuchElementException: Could not find element matching selector: #input-nonpresent.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'venezia.local', ip: '192.168.11.8', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.2', java.version: '1.8.0_66'\nDriver info: driver.version: unknown",
+    "stackTrace" : "org.openqa.selenium.NoSuchElementException: Could not find element matching selector: #input-nonpresent.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'venezia.local', ip: '192.168.11.8', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.2', java.version: '1.8.0_66'\nDriver info: driver.version: unknown\n\tat org.fluentlenium.core.search.Search.findFirst(Search.java:123)\n\tat org.fluentlenium.core.Fluent.findFirst(Fluent.java:470)\n\tat com.github.kobanyan.selenium_wrapper_comparison.FluentLeniumIT.clearNonpresentInput(FluentLeniumIT.java:36)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:497)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)\n\tat org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)\n\tat org.junit.rules.RunRules.evaluate(RunRules.java:20)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:497)\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)\nCaused by: org.openqa.selenium.NoSuchElementException: Element not found\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'venezia.local', ip: '192.168.11.8', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.2', java.version: '1.8.0_66'\nDriver info: driver.version: unknown\n\tat org.fluentlenium.core.domain.FluentListImpl.first(FluentListImpl.java:27)\n\tat org.fluentlenium.core.search.Search.findFirst(Search.java:121)\n\t... 36 more\n"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "testId" : null,
+  "suite" : {
+    "uid" : "9157a573c47ffe3f",
+    "name" : "com.github.kobanyan.selenium_wrapper_comparison.FluentLeniumIT",
+    "title" : "Fluent lenium IT"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Clear nonpresent input"
+  }, {
+    "name" : "host",
+    "value" : "venezia.local"
+  }, {
+    "name" : "thread",
+    "value" : "2910@venezia.local.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "com.github.kobanyan.selenium_wrapper_comparison.FluentLeniumIT"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

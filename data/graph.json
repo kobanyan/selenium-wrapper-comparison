@@ -1,0 +1,267 @@
+{
+  "testCases" : [ {
+    "uid" : "5622f733ba1fdc44",
+    "name" : "assertThatHiddenInputIsVisible",
+    "title" : "Selenium: Assert that hidden input is visible",
+    "time" : {
+      "start" : 1450625727031,
+      "stop" : 1450625727352,
+      "duration" : 321
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "a29d19b490b93613",
+    "name" : "assertThatHiddenInputIsInvisible",
+    "title" : "Selenium: Assert that hidden input is invisible",
+    "time" : {
+      "start" : 1450625727353,
+      "stop" : 1450625727401,
+      "duration" : 48
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "e7e3fafe08f89c87",
+    "name" : "clearDisabledInput",
+    "title" : "Selenium: Clear disabled input",
+    "time" : {
+      "start" : 1450625727403,
+      "stop" : 1450625727453,
+      "duration" : 50
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "691fc196da13088c",
+    "name" : "assertThatNonpresentInputIsVisible",
+    "title" : "Selenium: Assert that nonpresent input is visible",
+    "time" : {
+      "start" : 1450625727454,
+      "stop" : 1450625727484,
+      "duration" : 30
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "3e86848b96b88cf1",
+    "name" : "clearNonpresentInput",
+    "title" : "Selenium: Clear nonpresent input",
+    "time" : {
+      "start" : 1450625727484,
+      "stop" : 1450625727516,
+      "duration" : 32
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "dbc3c86382eb197f",
+    "name" : "assertThatNonpresentInputIsInvisible",
+    "title" : "Selenium: Assert that nonpresent input is invisible",
+    "time" : {
+      "start" : 1450625727516,
+      "stop" : 1450625727545,
+      "duration" : 29
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "c5c83247bc1f7da7",
+    "name" : "clearReadonlyInput",
+    "title" : "Selenium: Clear readonly input",
+    "time" : {
+      "start" : 1450625727545,
+      "stop" : 1450625727596,
+      "duration" : 51
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "1f7c0baf1a8b15e9",
+    "name" : "clearHiddenInput",
+    "title" : "Selenium: Clear hidden input",
+    "time" : {
+      "start" : 1450625727597,
+      "stop" : 1450625727634,
+      "duration" : 37
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "2cb4b5a717a2dc10",
+    "name" : "assertThatHiddenInputIsVisible",
+    "title" : "FluentLenium: Assert that hidden input is visible",
+    "time" : {
+      "start" : 1450625713910,
+      "stop" : 1450625716274,
+      "duration" : 2364
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "fcaecaa127232624",
+    "name" : "assertThatHiddenInputIsInvisible",
+    "title" : "FluentLenium: Assert that hidden input is invisible",
+    "time" : {
+      "start" : 1450625716275,
+      "stop" : 1450625716326,
+      "duration" : 51
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "3edb30a2d18cadd3",
+    "name" : "clearDisabledInput",
+    "title" : "FluentLenium: Clear disabled input",
+    "time" : {
+      "start" : 1450625716393,
+      "stop" : 1450625716471,
+      "duration" : 78
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "40bbc4e8a3984cb5",
+    "name" : "assertThatNonpresentInputIsVisible",
+    "title" : "FluentLenium: Assert that nonpresent input is visible",
+    "time" : {
+      "start" : 1450625716472,
+      "stop" : 1450625716507,
+      "duration" : 35
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "4b4d9bb69a39497",
+    "name" : "clearNonpresentInput",
+    "title" : "FluentLenium: Clear nonpresent input",
+    "time" : {
+      "start" : 1450625716507,
+      "stop" : 1450625716540,
+      "duration" : 33
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "831376b8bcef094c",
+    "name" : "assertThatNonpresentInputIsInvisible",
+    "title" : "FluentLenium: Assert that nonpresent input is invisible",
+    "time" : {
+      "start" : 1450625716541,
+      "stop" : 1450625716581,
+      "duration" : 40
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "12015ed1473859ca",
+    "name" : "clearReadonlyInput",
+    "title" : "FluentLenium: Clear readonly input",
+    "time" : {
+      "start" : 1450625716581,
+      "stop" : 1450625716658,
+      "duration" : 77
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "b0181683086e2eba",
+    "name" : "clearHiddenInput",
+    "title" : "FluentLenium: Clear hidden input",
+    "time" : {
+      "start" : 1450625716658,
+      "stop" : 1450625716728,
+      "duration" : 70
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "2da57d4ba93d3201",
+    "name" : "assertThatHiddenInputIsVisible",
+    "title" : "Selenide: Assert that hidden input is visible",
+    "time" : {
+      "start" : 1450625718391,
+      "stop" : 1450625719842,
+      "duration" : 1451
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "d1a1e252b3cbdb97",
+    "name" : "assertThatHiddenInputIsInvisible",
+    "title" : "Selenide: Assert that hidden input is invisible",
+    "time" : {
+      "start" : 1450625719843,
+      "stop" : 1450625719893,
+      "duration" : 50
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "79d5d0d8564d0ddf",
+    "name" : "clearDisabledInput",
+    "title" : "Selenide: Clear disabled input",
+    "time" : {
+      "start" : 1450625719895,
+      "stop" : 1450625721037,
+      "duration" : 1142
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "dd4ec1bca7b1d0bc",
+    "name" : "assertThatNonpresentInputIsVisible",
+    "title" : "Selenide: Assert that nonpresent input is visible",
+    "time" : {
+      "start" : 1450625721038,
+      "stop" : 1450625722093,
+      "duration" : 1055
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "55a5019576a29f1e",
+    "name" : "clearNonpresentInput",
+    "title" : "Selenide: Clear nonpresent input",
+    "time" : {
+      "start" : 1450625722093,
+      "stop" : 1450625723135,
+      "duration" : 1042
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "4c38e4c69f10f78c",
+    "name" : "assertThatNonpresentInputIsInvisible",
+    "title" : "Selenide: Assert that nonpresent input is invisible",
+    "time" : {
+      "start" : 1450625723136,
+      "stop" : 1450625723166,
+      "duration" : 30
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "c51f171f1650d293",
+    "name" : "clearReadonlyInput",
+    "title" : "Selenide: Clear readonly input",
+    "time" : {
+      "start" : 1450625723167,
+      "stop" : 1450625724298,
+      "duration" : 1131
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "51675f4a65ef0f91",
+    "name" : "clearHiddenInput",
+    "title" : "Selenide: Clear hidden input",
+    "time" : {
+      "start" : 1450625724299,
+      "stop" : 1450625725413,
+      "duration" : 1114
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  } ]
+}
